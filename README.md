@@ -42,3 +42,10 @@ TestBank can be deployed in either a secure mode or a vulnerable mode. By defaul
 java -Dsecure -jar testbank-*.war
 ```
 The above command used the '-Dsecure' runtime argument to boot up the service in a secure context. As with the vulnerable instance the context is displayed visibly and visiting the secure webpage the ' - vulnerbale' appending to the name will have changed to '- secure'
+
+### Sonar
+To run a scan on sonar 
+```
+./gradlew sonarqube -Dsonar.host.url=<<SONAR URL>> -Dsonar.login=<<SONAR TOKEN>> -Dsonar.projectKey=<<PROJECT KEY>>
+```
+For more information go [here](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
