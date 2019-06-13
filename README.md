@@ -48,4 +48,4 @@ To run a scan on sonar
 ```
 ./gradlew sonarqube -Dsonar.host.url=<<SONAR URL>> -Dsonar.login=<<SONAR TOKEN>> -Dsonar.projectKey=<<PROJECT KEY>>
 ```
-For more information go [here](href="https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
+For more information go [here](https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner+for+Gradle)
